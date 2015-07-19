@@ -1,0 +1,75 @@
+html {
+background-color: #626F8F;
+}
+
+#pics{
+  display: line-block;
+  width: 30%;
+  float: right;
+}
+
+#Trick {
+  display:inline;
+  padding-left: 100%;
+}
+
+h4 {
+  font-style: italic;
+}
+
+p{
+  text-align: justify;
+}
+
+#text{
+  display: inline-block;
+  width: 60%;
+  margin-right: auto;
+  float: left;
+}
+
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color:434C62;
+}
+
+ul {
+  text-align: justify;
+  font-weight: bold;
+}
+
+#Facts {
+  display:inline-block;
+  font-size: 20px;
+  padding: 0px; 40px; 20px; 40px;
+  margin-top: -30px;
+  margin-left: 40px;
+}
+
+#Create {
+  display:inline-block;
+  font-size: 20px;
+  padding: 0px; 40px; 20px; 40px;
+}
+
+#Discover {
+  display:inline-block;
+  font-size: 40px;
+  padding: 0px; 40px; 20px; 40px;
+}
+
+#Inspire {
+  display:inline-block;
+  font-size: 20px;
+  padding: 0px; 40px; 20px; 40px;
+}
+
+#Experience {
+  display:inline-block;
+  font-size: 20px;
+  padding: 0px; 40px; 20px; 40px;
+  display:inline-block;
+  margin-right: 70px;
+}
