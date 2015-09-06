@@ -1,0 +1,224 @@
+html {
+background-color: #626F8F;
+}
+
+#Trick {
+  display:inline;
+  padding-left: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color:434C62;
+}
+
+ul {
+  text-align: justify;
+  font-weight: bold;
+}
+
+#Facts {
+  display:inline-block;
+  font-size: 40px;
+  padding: 0px; 40px; 20px; 40px;
+  margin-left: 40px;
+}
+
+#Create {
+  display:inline-block;
+  font-size: 20px;
+  padding: 0px; 40px; 20px; 40px;
+}
+
+#Discover {
+  display:inline-block;
+  font-size: 20px;
+  padding: 0px; 40px; 20px; 40px;
+}
+
+#Inspire {
+  display:inline-block;
+  font-size: 20px;
+  padding: 0px; 40px; 20px; 40px;
+}
+
+#Experience {
+  display:inline-block;
+  font-size: 20px;
+  padding: 0px; 40px; 20px; 40px;
+  display:inline-block;
+  margin-right: 70px;
+}
+
+
+div#header {
+  background-color: #D2B48C;
+  width: 100%;
+  height: 250px;
+  position: fixed;
+  top:0;
+}
+
+#name {
+  text-align: center;
+}
+
+img#profile  {
+   max-width:200px;
+   max-height:200px;
+   position: fixed;
+   left: 20px;
+   top: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+header ul {
+  position: fixed;
+  right: 80px;
+  top: 30px;
+  font-size: 1.5em;
+  margin-left: 250px;
+}
+
+header ul li {
+  display: inline-block;
+  float: left;
+  width: auto;
+  margin: 12px;
+}
+
+section {
+  position: absolute;
+  width: 100%;
+  height: 65%;
+  top:260px;
+  z-index: -1;
+}
+
+h1.quote {
+  width: 45%;
+  margin-left: 45%;
+  margin-top: 120px;
+  line-height: 1.5;
+}
+
+h2.quote {
+  font-style: italic;
+  float: right;
+  margin-right: 10%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #C1CDCD;
+}
+
+img.icons {
+  max-width:32px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+li.menu a:link {
+  color: black;
+  text-decoration: none;
+}
+
+li.menu a:active {
+  color: white;
+  text-decoration: none;
+}
+
+li.menu a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+li.menu a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+p span {
+  font-weight: bold;
+}
+
+li span {
+  font-weight: bold;
+}
+
+pre.input {
+  background-color: #F0F0F0;
+  width: auto;
+  padding-left: 9px;
+  padding-right: 9px;
+  display: inline-block;
+  line-height: 2.2;
+}
+
+pre.output {
+  background-color: #e8f5fa;
+  width: auto;
+  padding-left: 9px;
+  padding-right: 9px;
+  display: inline-block;
+  line-height: 2.2;
+}
+
+h1#resume-header {
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  left: 47%;
+  z-index: -1
+}
+
+h1#about-text {
+  text-align: center;
+  margin: 50px;
+}
+
+p#about-text {
+  font-size: 22px;
+  text-align: center;
+  margin: 65px;
+}
+
+section#resume{
+  width: 60%;
+  height: auto;
+  border-style: solid;
+  background-color: #f2f2f2;
+  margin-left: 18%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+div.divider_line {
+  height: 2px;
+  background-color: black;
+  margin-top: 23px;
+}
+
+p.date {
+  margin: 0;
+  display: inline-block;
+  float: left;
+  margin-bottom: 52px;
+  margin-right: 38px;
+  font-style: italic;
+}
+
+ul.skills {
+  display: inline-table;
+}
