@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+  <title>JavaScript</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog_wireframe.css">
+</head>
+
+<nav>
+    <ul>
+        <li id="Facts"> Facts </li>
+        <li id="Create"> Create </li>
+        <li id="Discover"> Discover </li>
+        <li id="Inspire"> Inspire </li>
+        <li id="Experience"> Experience </li>
+        <li id="Trick"> </li>
+      </ul>
+    </nav>
+
+<main>
+  <h1>JavaScript</h1>
+  <h4>September 13, 2015</h4>
+
+  <section>
+    <p>
+TJavaScript and Ruby are both Object Oriented Programming languages. But the ways they define objects syntactically are different.</p>
+
+<h3>Ruby Hashes vs. JavaScript Objects</h3>
+
+<p> Ruby Hashes are similar to the creation of a JavaScript object. In Ruby a hash is a a list of key value pairs (see example below):
+</p> </p>
+
+ <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"> my_hash <span style="color: #333333">=</span> { <span style="color: #AA6600">key1</span>: value1, <span style="color: #AA6600">key2</span>: value2}
+</pre></div>
+<p>JavaScript uses similar syntax for the creation of an object. An object in JavaScript is defined as shown below:</p>
+
+ <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">var</span> myJavaScriptObject <span style="color: #333333">=</span> {
+      property1<span style="color: #333333">:</span> value1,
+      property2<span style="color: #333333">:</span> value2
+
+      behavior1<span style="color: #333333">:</span> <span style="color: #008800; font-weight: bold">function</span>() {
+        <span style="color: #008800; font-weight: bold">this</span>.property1 <span style="color: #333333">+=</span><span style="color: #0000DD; font-weight: bold">1</span>;
+      }
+    };
+</pre></div>
+
+    <h3>Ruby classes vs. JavaScript constructor functions</h3>
+    <p>Ruby classes are defined with a class keyword. Furthermore it is characterized by attributes and methods.
+    JavaScript doesn't seem to have a formal class definition for its object. They syntax for a ruby class is written below:
+  </p>
+
+  <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">class</span> <span style="color: #BB0066; font-weight: bold">My_object</span>
+
+      <span style="color: #3333BB">@instance_variable1</span>
+      <span style="color: #3333BB">@instance_variable2</span>
+
+      <span style="color: #008800; font-weight: bold">def</span> <span style="color: #0066BB; font-weight: bold">initialize</span>(value1, value2)
+        <span style="color: #3333BB">@instance_variable1</span> <span style="color: #333333">=</span> value1
+        <span style="color: #3333BB">@instance_variable2</span> <span style="color: #333333">=</span> value2
+      <span style="color: #008800; font-weight: bold">end</span>
+
+      <span style="color: #008800; font-weight: bold">def</span> <span style="color: #0066BB; font-weight: bold">method_behavior_1</span>
+        <span style="color: #3333BB">@instance_variable1</span> <span style="color: #333333">+=</span> <span style="color: #0000DD; font-weight: bold">1</span>
+      <span style="color: #008800; font-weight: bold">end</span>
+
+
+    <span style="color: #008800; font-weight: bold">end</span>
+</pre></div>
+
+  </p>
+    <h3>Looping in Ruby vs. Looping in JavaScript</h3>
+    <p>There are some differences between Ruby and Java concerninc looping. Whereas Ruby uses .each JavaScript uses the for loop as shown below.</p>
+<p>
+    Ruby iteration example:
+</p>
+     <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">my_array <span style="color: #333333">=</span> <span style="color: #333333">[</span><span style="color: #0000DD; font-weight: bold">1</span>,<span style="color: #0000DD; font-weight: bold">2</span>,<span style="color: #0000DD; font-weight: bold">3</span>, <span style="color: #0000DD; font-weight: bold">4</span><span style="color: #333333">]</span>
+
+my_array<span style="color: #333333">.</span>each { <span style="color: #333333">|</span>element_of_array<span style="color: #333333">|</span> <span style="color: #007020">puts</span> element_of_array}
+</pre></div>
+
+<p>
+    JavaScript iteration example:
+</p>
+    <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">var</span> my_array <span style="color: #333333">=</span> [<span style="color: #0000DD; font-weight: bold">1</span>, <span style="color: #0000DD; font-weight: bold">2</span>, <span style="color: #0000DD; font-weight: bold">3</span>, <span style="color: #0000DD; font-weight: bold">4</span>];
+
+<span style="color: #008800; font-weight: bold">for</span>(<span style="color: #008800; font-weight: bold">var</span> index <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; index <span style="color: #333333">&lt;</span> my_array.length ; index <span style="color: #333333">+=</span> <span style="color: #0000DD; font-weight: bold">1</span>)
+      console.log(my_array[index]);
+</pre></div>
+
+
+    </p>
+
+
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Katharina Buck</title>
+    <link type="text/css" rel="stylesheet" href="./stylesheets/project_index.css"/>
+  </head>
+
+<body>
+
+  <nav>
+    <ul>
+        <li id="Facts"> Facts </li>
+        <li id="Create"> Create </li>
+        <li id="Discover"> Discover </li>
+        <li id="Inspire"> Inspire </li>
+        <li id="Experience"> Experience </li>
+        <li id="Trick"> </li>
+      </ul>
+    </nav>
+
+<section id="Vorschau Blog">
+  <table>
+    <tr> </tr>
+      <td id="content 2">
+        <h4> Project 1 </h4>
+        <p class="date"> XX XX XX </p>
+      </td>
+      <td id="content 1">
+        <h4> Project 4 </h4>
+        <p class="date"> XX XX XX </p>
+      </td>
+
+
+    <tr> </tr>
+    <td id="content 1">
+        <h4> Project 2 </h4>
+        <p class="date"> XX XX XX </p>
+    </td>
+    <td id="content 1">
+        <h4> Project 4 </h4>
+        <p class="date"> XX XX XX </p>
+         </td>
+
+  </table>
+</section>
+
+<footer>
+</footer>
+
+  <body>
+
+  </body>
+  </html>
